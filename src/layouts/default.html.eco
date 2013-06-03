@@ -37,7 +37,10 @@
         <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
     <![endif]-->
 
-	<header></header>
+	<header>
+		<h1>you can't always get what you want.</h1>
+		<h2>but if you try, you may get what you need</h2>
+	</header>
 	<article>
 		<%- @content %>
 	</article>
