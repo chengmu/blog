@@ -2,6 +2,7 @@
 layout: 'default'
 title: 'Home'
 isPage: true
+date: '2011-07-02'
 ---
 
 ##Try Try Try

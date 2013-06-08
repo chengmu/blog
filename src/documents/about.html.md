@@ -2,6 +2,7 @@
 layout: 'default'
 title: 'About Me'
 isPage: true
+date: '2012-08-10'
 ---
 
 Hi there, 

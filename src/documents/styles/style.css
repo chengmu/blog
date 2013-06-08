@@ -2,15 +2,36 @@
       font-family: "Consolas";
       src: url("fonts/consolas.ttf");
 }
-
+html{
+	height: 100%;
+}
 body{
+	height: 100%;
 	font-family: Consolas, Tahoma, Microsoft Yahei;
 	font:Consolas;
 	background: url(images/bg.jpg) fixed right bottom no-repeat;
+	position: relative;
 }
+body,ul,li,h1,h2,h3,h4{
+	margin: 0;
+	padding: 0;
+}
+a{text-decoration: none;color:#333;}
 header{
 	padding:10px 0 0 80px;
 	border-bottom: 1px solid #efefef;
+	position: relative;
+}
+header aside, header h1{
+	display: inline-block;
+}
+header h1{
+	margin: 20px 10px;
+}
+header aside{
+	position: absolute;
+	margin-left: 10%;
+	margin-top: 30px;
 }
 header .main-menu a{
 	display: inline-block;
@@ -22,4 +43,16 @@ article{
 	background: rgba(255,255,255,.5);
 	*background: rgb(255,255,255);
 	box-shadow: 0 0 25px 5px rgba(255,255,255,.8);
+}
+.aticle-list{
+	margin: 40px;
+	position: absolute;
+
+}
+
+footer{
+	padding:10px 40px;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
 }
