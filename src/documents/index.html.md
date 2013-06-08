@@ -1,25 +1,21 @@
 ---
 layout: 'default'
-title: 'Chengmu | first site?'
+title: 'Home'
+isPage: true
 ---
 
-## Yeah! but it's still empty...
--好累TVT-
+##Try Try Try
+If we just try try try
 
-看看是不是可以即时看效果！哈哈！
-我又来啦！ 
+Just to be ni-ni-nice
 
-哇啊啊不能换行么。。。
+Then the world would be a better place for you and I
 
-哦必须隔一行。。。
+If we just live our lives
 
+Putting our differences aside
 
-<img src="images/bg.jpg">
+Oh that would be so beautiful to me
 
-
-
-那要是。。。
-
-=_=
-
+ 
 

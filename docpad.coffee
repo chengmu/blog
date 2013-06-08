@@ -21,7 +21,7 @@ docpadConfig = {
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "Chengmu1893"
 
 			# The website description (for SEO)
 			description: """
@@ -71,8 +71,22 @@ docpadConfig = {
 		getPreparedKeywords: ->
 			# Merge the document keywords with the site keywords
 			@site.keywords.concat(@document.keywords or []).join(', ')
-
-
+		
+	#===============================
+	collections:
+    pages: ->
+        @getCollection("html").findAllLive({isPage: true})
+    posts: ->
+        @getCollection("html").findAllLive({relativeOutDirPath: 'posts'},[{date: -1}]).on "add", (model) ->
+            model.setMetaDefaults({layout: "post"})
+    techs: ->
+        @getCollection("html").findAllLive({relativeOutDirPath: 'projects'},[{title: 1}]).on "add", (model) ->
+            model.setMetaDefaults({layout: "post"})
+    trans: ->
+        @getCollection("html").findAllLive({relativeOutDirPath: 'pages'}).on "add", (model) ->
+            model.setMetaDefaults({layout: "page"})
+    frontpage: ->
+    	@getCollection("html").findAllLive({relativeOutDirPath: $in: ['posts','trans','techs']},[{date: -1}])
 	# =================================
 	# DocPad Events
 

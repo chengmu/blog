@@ -47,18 +47,16 @@
 		    <% end %>
 		</aside>
 	</header>
-	<aside>
-		<h4>最近写滴：</h4>
-		<ul>
-			<% for recent in @getCollection("frontpage").toJSON()[0..4]: %>
-			<a href="<%= recent.url %>">
-		                <%= recent.title %>
-		            </a>
-		    <% end %>
-		</ul>
-	</aside>
 	<article>
+		<ul>
+			<% for post in @getCollection("posts").toJSON(): %>
+			    <a href="<%= post.url %>"><%= post.title %></a>
+			<% end %>
+		</ul>
+		<aside>
 		<%- @content %>
+			
+		</aside>
 	</article>
 	<footer></footer>
 
