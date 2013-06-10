@@ -17,6 +17,11 @@ body,ul,li,h1,h2,h3,h4{
 	padding: 0;
 }
 a{text-decoration: none;color:#333;}
+
+
+/*temp */
+a:hover{text-decoration: underline;}
+
 header{
 	padding:10px 0 0 80px;
 	border-bottom: 1px solid #efefef;
@@ -30,29 +35,52 @@ header h1{
 }
 header aside{
 	position: absolute;
-	margin-left: 10%;
-	margin-top: 30px;
+	margin-left: 300px;
+	margin-top: 40px;
+	top: 0;
 }
 header .main-menu a{
 	display: inline-block;
 	margin: 0 10px;
 }
 article{
-	width: 50%;
+	width: 60%;
 	margin: 30px auto;
 	background: rgba(255,255,255,.5);
 	*background: rgb(255,255,255);
 	box-shadow: 0 0 25px 5px rgba(255,255,255,.8);
+	padding: 10px;
 }
-.aticle-list{
+.recent-list{
 	margin: 40px;
 	position: absolute;
+		width: 10%;
 
+}
+
+
+.article-list{
+	
+}
+.article-list li{
+	padding: 5px;
+	border-bottom: 1px dotted rgba(0,0,0,.7);
+	position: relative;
+}
+.article-list a{
+	display: block;
+	font-size: 1.2em;
+}
+.article-list .article-date{
+	position: absolute;
+	right: 0;
+}
+.article-list .article-type{
+	text-transform: uppercase;
+	position: relative;
 }
 
 footer{
 	padding:10px 40px;
 	text-align: center;
-	position: absolute;
-	bottom: 0;
 }

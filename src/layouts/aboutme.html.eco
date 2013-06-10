@@ -39,20 +39,10 @@
 
 	<%-@partial('header.html.eco', @)%>
 
-	<article class="article-list">
-		<ul>
-			<% for recent in @getCollection("frontpage").toJSON()[0..4]: %>
-			<li  class="type-<%= recent.relativeOutDirPath%>">
-				<a href="<%= recent.url %>">
-			                <%= recent.title %>
-	            </a>
-	            
-	            <span class="article-type"><%= recent.relativeOutDirPath%></span>
-	            <span class="article-date"><%= recent.date.toDateString()%></span>
-			</li>
-		    <% end %>
-		</ul>
+	<article>
+		<%- @content %>
 	</article>
+
 	
 	<%-@partial('footer.html.eco', @)%>
 

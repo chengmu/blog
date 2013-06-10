@@ -1,5 +1,5 @@
 ---
-layout: 'list'
+layout: 'translist'
 title: 'Trans'
 isPage: true
 date: '2012-08-05'

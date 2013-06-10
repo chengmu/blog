@@ -1,7 +1,10 @@
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig = {
-
+	#========================================
+    # Render Passes
+    # How many times should we render documents that reference other documents?
+    renderPasses: 2   
 	# =================================
 	# Template Data
 	# These are variables that will be accessible via our templates
@@ -72,6 +75,7 @@ docpadConfig = {
 			# Merge the document keywords with the site keywords
 			@site.keywords.concat(@document.keywords or []).join(', ')
 		
+	
 	#===============================
 	collections:
     pages: ->
@@ -80,11 +84,11 @@ docpadConfig = {
         @getCollection("html").findAllLive({relativeOutDirPath: 'posts'},[{date: -1}]).on "add", (model) ->
             model.setMetaDefaults({layout: "post"})
     techs: ->
-        @getCollection("html").findAllLive({relativeOutDirPath: 'projects'},[{title: 1}]).on "add", (model) ->
+        @getCollection("html").findAllLive({relativeOutDirPath: 'techs'},[{title: 1}]).on "add", (model) ->
             model.setMetaDefaults({layout: "post"})
     trans: ->
-        @getCollection("html").findAllLive({relativeOutDirPath: 'pages'}).on "add", (model) ->
-            model.setMetaDefaults({layout: "page"})
+        @getCollection("html").findAllLive({relativeOutDirPath: 'trans'}).on "add", (model) ->
+            model.setMetaDefaults({layout: "post"})
     frontpage: ->
     	@getCollection("html").findAllLive({relativeOutDirPath: $in: ['posts','trans','techs']},[{date: -1}])
 	# =================================

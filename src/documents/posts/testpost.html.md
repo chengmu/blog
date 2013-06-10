@@ -1,6 +1,7 @@
 ---
-layout: 'default'
+layout: 'post'
 title: 'fisrt post!'
+summary: 'the song of Jason Marz. Song of life!'
 ---
 
 ##Try Try Try

@@ -1,5 +1,5 @@
 ---
-layout: 'default'
+layout: 'aboutme'
 title: 'About Me'
 isPage: true
 date: '2012-08-10'
