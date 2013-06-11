@@ -1,7 +1,8 @@
 ---
 title : '一猫在手胜似倆头骨蹲壁炉'
 date : 2013-06-08
-
+fandom: Sherlock
+couple: gen
 ---
 
 [Sherlock]A cat in the hand is worth more than two skulls on the shelf 初译

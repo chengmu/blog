@@ -33,16 +33,23 @@
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/apple-touch-icon-144x144-precomposed.png" /></head>
 <body>
 <%-@partial('header.html.eco', @)%>
-<aside>
-<%- @content %>
-	
-</aside>
 <article>
+		<aside>
+		<%- @content %>
+			
+		</aside>
 		<ul>
-			<% for tran in @getCollection("trans").toJSON(): %>
-			    <a href="<%= tran.url %>"><%= tran.title %></a>
-			<% end %>
-		</ul>
+				<% for recent in @getCollection("trans").toJSON(): %>
+				<li  class="type-<%= recent.relativeOutDirPath%>">
+		            <span>[<%= recent.fandom%>]</span>
+		            <span>[<%= recent.couple%>]</span>
+					<a href="<%= recent.url %>">
+				                <%= recent.title %>
+		            </a>
+		            <span class="article-date"><%= recent.date.getMonth() + 1 + '-' + recent.date.getDate() + '-' + recent.date.getFullYear()%></span>
+				</li>
+			    <% end %>
+			</ul>
 </article>
 <%-@partial('footer.html.eco', @)%>
 </body>

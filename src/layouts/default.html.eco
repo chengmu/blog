@@ -32,28 +32,65 @@
 	<!-- For third-generation iPad with high-resolution Retina display: -->
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/apple-touch-icon-144x144-precomposed.png" />
 </head>
-<body>
+<body class="index">
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
     <![endif]-->
 
 	<%-@partial('header.html.eco', @)%>
-
-	<article class="article-list">
-		<ul>
-			<% for recent in @getCollection("frontpage").toJSON()[0..4]: %>
-			<li  class="type-<%= recent.relativeOutDirPath%>">
-				<a href="<%= recent.url %>">
-			                <%= recent.title %>
-	            </a>
-	            
-	            <span class="article-type"><%= recent.relativeOutDirPath%></span>
-	            <span class="article-date"><%= recent.date.toDateString()%></span>
-			</li>
-		    <% end %>
-		</ul>
+	<article class="index-wrapper">
+		
+		<article class="article-list">
+			<h2>随笔杂类/Posts</h2>
+			<ul>
+				<% for recent in @getCollection("posts").toJSON()[0..4]: %>
+				<li  class="type-<%= recent.relativeOutDirPath%>">
+		            <span class="article-date"><%= recent.date.getMonth() + 1 + '-' + recent.date.getDate() + '-' + recent.date.getFullYear()%></span>
+					<a href="<%= recent.url %>">
+				                <%= recent.title %>
+		            </a>
+		            
+		            <!-- <span class="article-type"><%= recent.relativeOutDirPath%></span> -->
+				</li>
+			    <% end %>
+			</ul>
+            <a href="posts.html" class="more">more...</a>
+		</article>
+		<article class="article-list">
+			<h2>翻译稿/Trans</h2>
+			<ul>
+				<% for recent in @getCollection("trans").toJSON()[0..4]: %>
+				<li  class="type-<%= recent.relativeOutDirPath%>">
+		            <span class="article-date"><%= recent.date.getMonth() + 1 + '-' + recent.date.getDate() + '-' + recent.date.getFullYear()%></span>
+					
+					
+					<a href="<%= recent.url %>">
+				                <span>[<%= recent.fandom%>]</span><%= recent.title %>
+		            </a>
+		            <!-- <span class="article-type"><%= recent.relativeOutDirPath%></span> -->
+				</li>
+			    <% end %>
+			</ul>
+            <a href="trans.html" class="more">more...</a>
+		</article>
+		
+		<article class="article-list">
+			<h2>技术相关/Techs</h2>
+			<ul>
+				<% for recent in @getCollection("techs").toJSON()[0..4]: %>
+				<li  class="type-<%= recent.relativeOutDirPath%>">
+		            <span class="article-date"><%= recent.date.getMonth() + 1 + '-' + recent.date.getDate() + '-' + recent.date.getFullYear()%></span>
+					<a href="<%= recent.url %>">
+				                <%= recent.title %>
+		            </a>
+		            
+		            <!-- <span class="article-type"><%= recent.relativeOutDirPath%></span> -->
+				</li>
+			</ul>
+        <a href="techs.html" class="more">more...</a>
+		</article>
+		
 	</article>
-	
 	<%-@partial('footer.html.eco', @)%>
 
 	<!-- jQuery -->

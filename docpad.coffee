@@ -15,7 +15,7 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://localhost:9778/"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
