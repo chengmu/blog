@@ -39,6 +39,17 @@
 
 	<%-@partial('header.html.eco', @)%>
 	<article class="index-wrapper">
+		<article class="article-list intro-myself">
+			<span class="avatar"></span>
+			<div>
+				<p>Hi，这是程慕的个人站，</p>
+				<p>还在一点点的进行修缮，</p>
+				<p>拿来放些翻译随笔神码的。</p>
+				<p>请enjoy！还有尽情勾搭嗷！</p>		
+				
+			</div>
+			
+		</article>
 		
 		<article class="article-list">
 			<h2>随笔杂类/Posts</h2>

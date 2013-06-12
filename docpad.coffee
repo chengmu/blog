@@ -84,10 +84,10 @@ docpadConfig = {
         @getCollection("html").findAllLive({relativeOutDirPath: 'posts'},[{date: -1}]).on "add", (model) ->
             model.setMetaDefaults({layout: "post"})
     techs: ->
-        @getCollection("html").findAllLive({relativeOutDirPath: 'techs'},[{title: 1}]).on "add", (model) ->
+        @getCollection("html").findAllLive({relativeOutDirPath: 'techs'},[{date: -1}]).on "add", (model) ->
             model.setMetaDefaults({layout: "post"})
     trans: ->
-        @getCollection("html").findAllLive({relativeOutDirPath: 'trans'}).on "add", (model) ->
+        @getCollection("html").findAllLive({relativeOutDirPath: 'trans'},[{date: -1}]).on "add", (model) ->
             model.setMetaDefaults({layout: "post"})
     frontpage: ->
     	@getCollection("html").findAllLive({relativeOutDirPath: $in: ['posts','trans','techs']},[{date: -1}])

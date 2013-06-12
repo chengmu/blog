@@ -5,11 +5,15 @@ fandom: Sherlock
 couple: gen
 ---
 
+##一猫在手胜似倆头骨蹲壁炉
+
 [Sherlock]A cat in the hand is worth more than two skulls on the shelf 初译
 
  
 Title: A cat in the hand is worth more than two skulls on the shelf
+
 Author: abridgedgirly
+
 Characters: Sherlock+John
  
 PS :亮点是标题大概……一猫在手胜似倆头骨蹲壁炉（感谢mai314提供的标题翻译==|||）

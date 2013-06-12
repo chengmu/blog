@@ -39,7 +39,7 @@
 
 	<%-@partial('header.html.eco', @)%>
 
-	<aside class="recent-list">
+	<!-- <aside class="recent-list">
 		<h4>Recent</h4>
 		<ul>
 			<% for recent in @getCollection("frontpage").toJSON()[0..4]: %>
@@ -51,8 +51,8 @@
 			</li>
 		    <% end %>
 		</ul>
-	</aside>
-	<article>
+	</aside> -->
+	<article class="article">
 		<h1><%=@.title%></h1>
 		<%- @content %>
 	</article>

@@ -8,17 +8,21 @@ html{
 body{
 	font-size: 12px;
 	height: 100%;
-	font-family: Consolas, Tahoma, Microsoft Yahei;
+	font-family: Consolas, Tahoma, Simsun,Microsoft Yahei;
 	background: url(images/bg.jpg) fixed right bottom no-repeat;
 	position: relative;
+	color: rgb(102, 102, 102);
 }
 body,ul,li,h1,h2,h3,h4{
 	margin: 0;
 	padding: 0;
 }
+h2,h3,h4,h5{
+	font-weight: normal;
+}
 a{
 	text-decoration: none;
-	color: rgb(139, 0, 0);
+	color:rgb(139, 0, 0);
 	font-size: 1.4em;
 }
 
@@ -74,6 +78,7 @@ article{
 	box-shadow: 0 0 0;
 	padding: 0 0px 20px 0;
 	box-sizing: content-box;
+	vertical-align: top;
 }
 .article-list{
 	
@@ -96,6 +101,9 @@ article{
 }
 .article-list li a{
 	padding-right: 60px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 .article-list .article-date{
 	position: absolute;
@@ -110,15 +118,46 @@ article{
 	right: 0;
 	
 }
+
+.article{
+	font-size: 1em;
+	line-height: 2em;
+	text-indent: 4em;
+	margin: 10px 0 0 70px;
+}
+.article h2{
+	font-size: 1.3em;
+	font-weight: bold;
+} 
 .comments{
 	width: 60%;
-	margin: 0 auto;
+	margin: 0 0 0 80px;
 }
 footer{
 	padding:10px 40px;
 	text-align: center;
 }
 
+.avatar{
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	background: url(images/avatar.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.intro-myself{
+	padding-left: 30px;
+}
+.intro-myself .avatar{
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 17px;
+	border-radius: 12px;
+	box-shadow: 1px 1px 1px 1px rgb(169, 169, 169);
+}
+.intro-myself p{
+	padding-left: 140px;
+}
 /**/
 
 @media (max-width: 900px) { 
