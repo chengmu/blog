@@ -1,6 +1,6 @@
-<header>
+<header class="header">
 	<h1><a href="http://chengmu.github.com">Chengmu1893</a></h1>
-	<aside class="main-menu">
+	<aside class="aside main-menu">
 		<% for page in @getCollection("pages").toJSON(): %>
 	            <a class="<%= if page.id is @document.id then 'active' else 'inactive' %>" href="<%= page.url %>">
 	                <%= page.title %>

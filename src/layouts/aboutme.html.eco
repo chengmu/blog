@@ -39,7 +39,7 @@
 
 	<%-@partial('header.html.eco', @)%>
 
-	<article>
+	<article class="article">
 		<%- @content %>
 	</article>
 

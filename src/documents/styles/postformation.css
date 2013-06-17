@@ -1,0 +1,75 @@
+/**
+ * 单个内容页面的基础样式
+** author: zhulin;
+** date : 2013-06-17;
+ */
+
+/**
+ * 文字默认颜色设成191919或者3a3a3a
+** 链接色设成5a5a5a
+** 高亮设成e34334
+** 描边用efefef，更高级别的用dedede 
+** 背景灰色fafafa比较低的灰或者f5f5f5都可以
+** 通常比较简单的层次是，背景色1个，描边1个，文字两个+高亮
+ */
+
+.article-content{
+	line-height: 2em;
+	margin: 50px 0 0 70px;
+	font-size: 15px;
+	width: 60%;
+	color: #191919;	
+}
+.article-content h1{
+	font-size: 2em;
+	font-weight: bold;
+}
+.article-content h2{
+	font-size: 1.8em;
+	font-weight: bold;
+	border-bottom: 1px solid rgb(238, 238, 238);
+	margin: .5em 0;
+}
+.article-content h3{
+	font-size: 1.5em;
+}
+.article-content h4{
+	font-size: 1.2em;
+}
+.article-content a{
+	/*color: #5a5a5a;*/
+	color: #e34334;
+	font-size: 1em;
+	text-decoration: underline;
+}
+.article-content a:hover{
+	color: #e34334;
+}
+.article-content em,.article-content strong{
+	font-weight: bold;
+}
+
+
+.article-content dl{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.article-content ul{
+	padding-left: 40px;
+}
+.article-content li{
+	list-style-type: disc;
+	text-indent: 0;
+}
+.article-content p code{
+	font-family: Consolas;
+	color: red;
+	border: 1px solid #222;
+	padding: 2px;
+}
+.article-content pre code{
+	background-color: rgb(248, 248, 248);
+	border: 1px solid rgb(221, 221, 221);
+	width: 100%;
+}

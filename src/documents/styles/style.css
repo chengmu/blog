@@ -13,9 +13,12 @@ body{
 	position: relative;
 	color: rgb(102, 102, 102);
 }
-body,ul,li,h1,h2,h3,h4{
+body,ul,li,h1,h2,h3,h4,h5,h6,p,pre{
 	margin: 0;
 	padding: 0;
+}
+li{
+	list-style:none;
 }
 h2,h3,h4,h5{
 	font-weight: normal;
@@ -30,28 +33,28 @@ a{
 /*temp */
 a:hover{text-decoration: underline;}
 
-header{
+.header{
 	padding:10px 0 0 80px;
 	border-bottom: 1px solid #efefef;
 	position: relative;
 }
-header aside, header h1{
+.header .aside, .header h1{
 	display: inline-block;
 }
-header h1{
+.header h1{
 	margin: 20px 10px;
 }
-header aside{
+.header .aside{
 	position: absolute;
 	margin-left: 20%;
 	margin-top: 40px;
 	top: 0;
 }
-header .main-menu a{
+.header .main-menu a{
 	display: inline-block;
 	margin: 0 10px;
 }
-article{
+.article{
 	width: 60%;
 	margin: 30px auto;
 	background: rgba(255,255,255,.5);
@@ -118,17 +121,7 @@ article{
 	right: 0;
 	
 }
-
-.article{
-	font-size: 1em;
-	line-height: 2em;
-	text-indent: 4em;
-	margin: 10px 0 0 70px;
-}
-.article h2{
-	font-size: 1.3em;
-	font-weight: bold;
-} 
+ 
 .comments{
 	width: 60%;
 	margin: 0 0 0 80px;
