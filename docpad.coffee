@@ -38,8 +38,6 @@ docpadConfig = {
 
 			# The website's styles
 			styles: [
-				'/vendor/normalize.css'
-				'/vendor/h5bp.css'
 				'/styles/style.css'
 				'/styles/highlight.css'
 				'/styles/postformation.css'

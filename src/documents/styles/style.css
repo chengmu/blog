@@ -3,30 +3,30 @@
       src: url("fonts/consolas.ttf");
 }
 html{
-	height: 100%;
+    height: 100%;
 }
 body{
-	font-size: 12px;
-	height: 100%;
-	font-family: Consolas, Tahoma, Simsun,Microsoft Yahei;
-	background: url(images/bg.jpg) fixed right bottom no-repeat;
-	position: relative;
-	color: rgb(102, 102, 102);
+    font-size: 12px;
+    height: 100%;
+    font-family: Consolas, Tahoma, Simsun,Microsoft Yahei;
+    background: url(images/bg.jpg) fixed right bottom no-repeat;
+    position: relative;
+    color: rgb(102, 102, 102);
 }
 body,ul,li,h1,h2,h3,h4,h5,h6,p,pre{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 li{
-	list-style:none;
+    list-style:none;
 }
 h2,h3,h4,h5{
-	font-weight: normal;
+    font-weight: normal;
 }
 a{
-	text-decoration: none;
-	color:rgb(139, 0, 0);
-	font-size: 1.4em;
+    text-decoration: none;
+    color:rgb(139, 0, 0);
+    font-size: 1.4em;
 }
 
 
@@ -34,127 +34,129 @@ a{
 a:hover{text-decoration: underline;}
 
 .header{
-	padding:10px 0 0 80px;
-	border-bottom: 1px solid #efefef;
-	position: relative;
+    padding:10px 0 0 80px;
+    border-bottom: 1px solid #efefef;
+    position: relative;
 }
 .header .aside, .header h1{
-	display: inline-block;
+    display: inline-block;
 }
 .header h1{
-	margin: 20px 10px;
+    margin: 20px 10px;
 }
 .header .aside{
-	position: absolute;
-	margin-left: 20%;
-	margin-top: 40px;
-	top: 0;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 40px;
+    top: 0;
 }
 .header .main-menu a{
-	display: inline-block;
-	margin: 0 10px;
+    display: inline-block;
+    margin: 0 10px;
 }
 .article{
-	width: 60%;
-	margin: 30px auto;
-	background: rgba(255,255,255,.5);
-	*background: rgb(255,255,255);
-	box-shadow: 0 0 25px 5px rgba(255,255,255,.8);
-	padding: 10px;
-	overflow: hidden;
+    width: 60%;
+    margin: 30px auto;
+    background: rgba(255,255,255,.5);
+    *background: rgb(255,255,255);
+    box-shadow: 0 0 25px 5px rgba(255,255,255,.8);
+    padding: 10px;
+    overflow: hidden;
 }
 .recent-list{
-	margin: 40px;
-	position: absolute;
-	width: 10%;
+    margin: 40px;
+    position: absolute;
+    width: 10%;
 
 }
 
 .index-wrapper{
-	width: 75%;
+    width: 75%;
 }
 .index-wrapper .article-list{
-	width: 45%;
-	display: inline-block;
-	position: relative;
-	margin: 0 2% 0 0;
-	box-shadow: 0 0 0;
-	padding: 0 0px 20px 0;
-	box-sizing: content-box;
-	vertical-align: top;
+    width: 45%;
+    display: inline-block;
+    position: relative;
+    margin: 0 2% 0 0;
+    box-shadow: 0 0 0;
+    padding: 0 0px 20px 0;
+    box-sizing: content-box;
+    vertical-align: top;
 }
 .article-list{
-	
+    
 }
 .article-list h2{
-	font-weight: normal;
-	padding-left: 20px;
+    font-weight: normal;
+    padding-left: 20px;
 }
 .article-list ul{
-	padding-left: 20px;
+    padding-left: 20px;
 }
 .article-list li{
-	padding: 5px;
-	border-bottom: 1px dotted rgba(0,0,0,.7);
-	position: relative;
+    padding: 5px;
+    border-bottom: 1px dotted rgba(0,0,0,.7);
+    position: relative;
 }
 .article-list a{
-	display: block;
-	font-size: 1.4em;
+    display: block;
+    font-size: 1.4em;
 }
 .article-list li a{
-	padding-right: 60px;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
+    padding-right: 60px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .article-list .article-date{
-	position: absolute;
-	right: 0;
+    position: absolute;
+    right: 0;
 }
 .article-list .article-type{
-	text-transform: uppercase;
-	position: relative;
+    text-transform: uppercase;
+    position: relative;
 }
 .article-list .more{
-	position: absolute;
-	right: 0;
-	
+    position: absolute;
+    right: 0;
+    
 }
  
 .comments{
-	width: 60%;
-	margin: 0 0 0 80px;
+    width: 60%;
+    margin: 0 0 0 80px;
 }
-footer{
-	padding:10px 40px;
-	text-align: center;
+.footer{
+    padding:10px 40px;
+    text-align: center;
 }
 
 .avatar{
-	display: inline-block;
-	height: 60px;
-	width: 60px;
-	background: url(images/avatar.jpg) 0 0 no-repeat;
-	background-size: 100% 100%;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background: url(images/avatar.jpg) 0 0 no-repeat;
+    background-size: 100% 100%;
 }
 .intro-myself{
-	padding-left: 30px;
+    padding-left: 30px;
 }
 .intro-myself .avatar{
-	position: absolute;
-	margin-left: 40px;
-	margin-top: 17px;
-	border-radius: 12px;
-	box-shadow: 1px 1px 1px 1px rgb(169, 169, 169);
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 17px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px 1px rgb(169, 169, 169);
 }
 .intro-myself p{
-	padding-left: 140px;
+    padding-left: 140px;
+    margin: 7px 0;
+    line-height: 2em;
 }
 /**/
 
 @media (max-width: 900px) { 
-	.index-wrapper .article-list{
-		width: 400px;
-	}
+    .index-wrapper .article-list{
+        width: 400px;
+    }
 }

@@ -23,12 +23,15 @@
 .article-content h1{
 	font-size: 2em;
 	font-weight: bold;
+	margin: 0.2em 0 .1em;
+	line-height: 1em;
 }
 .article-content h2{
 	font-size: 1.8em;
 	font-weight: bold;
 	border-bottom: 1px solid rgb(238, 238, 238);
-	margin: .5em 0;
+	margin: 0.7em 0 .2em;
+	padding: 0.3em;
 }
 .article-content h3{
 	font-size: 1.5em;
@@ -62,6 +65,13 @@
 	list-style-type: disc;
 	text-indent: 0;
 }
+.article-content p{
+    line-height: 1.8em;
+    margin: 0.8em 0;
+}
+.article-content p img{
+    vertical-align: bottom;
+}
 .article-content p code{
 	font-family: Consolas;
 	color: red;
@@ -72,4 +82,41 @@
 	background-color: rgb(248, 248, 248);
 	border: 1px solid rgb(221, 221, 221);
 	width: 100%;
+	margin: 1.5em 0 2em;
+	border-radius: 3px;
+}
+
+
+.article-content  blockquote::before {
+    content: "\“";
+    position: absolute;
+    font-size: 60px;
+    left: -69px;
+    font-family: T;  font-weight: bold;  font-style: normal;
+    color: #5e5e5e;
+}
+.article-content blockquote {
+    text-indent: 30px;
+    position: relative;
+    font-family: cursive;
+    font-style: italic;
+}
+.article-content blockquote::after {
+    content: "\”";
+    font-size: 70px;
+    position: absolute;
+    right: -70px;
+    bottom: -18px;
+    font-family: T;
+    font-weight: bold;
+    font-style: normal;
+    color: #5e5e5e;
+}
+
+.article-content blockquote blockquote::before {
+  font-size: 40px;
+}
+
+.article-content blockquote blockquote::after {
+   font-size: 40px;
 }
