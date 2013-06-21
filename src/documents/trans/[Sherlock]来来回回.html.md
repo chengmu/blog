@@ -5,26 +5,23 @@ couple: gen
 ---
 
 
-##来来去去/There and Back Again 
+>Title: 来来去去/There and Back Again 
 
+>Author：eleanor k.
 
->>Title: 来来去去/There and Back Again 
+>Fandom: Sherlock (2010)
 
->>Author：eleanor k.
+>Rating: PG
 
->>Fandom: Sherlock (2010)
+>Pairing: 无配对，但也可以说是John/Sherlock.大家随意。。 
 
->>Rating: PG
+>源地址：http://emungere.livejournal.com/243835.html
 
->>Pairing: 无配对，但也可以说是John/Sherlock.大家随意。。 
+>有声书下载地址：http://audiofic.jinjurly.com/there-and-back-again
 
->>源地址：http://emungere.livejournal.com/243835.html
+>朗读者Fayjay。大力推荐！我就是因为听到了有声书才去找的文。。。
 
->>有声书下载地址：http://audiofic.jinjurly.com/there-and-back-again
-
->>朗读者Fayjay。大力推荐！我就是因为听到了有声书才去找的文。。。
-
->>授权：我一亢奋就给翻完了所以我现在去要授权。。不行再撤ＯＪＺ。大家请多多去给原作者留言啊
+>授权：我一亢奋就给翻完了所以我现在去要授权。。不行再撤ＯＪＺ。大家请多多去给原作者留言啊
 
 John在水下睁开眼，看向Sherlock，那人也正看着他。Sherlock在水下的肤色带上了池水苍白的青绿色调，气泡从他略张的唇间上浮。他紧紧地揽住John的肩膀。在他们之上以及他们身边，世界轰鸣作响。
 

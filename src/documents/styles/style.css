@@ -160,3 +160,40 @@ a:hover{text-decoration: underline;}
         width: 400px;
     }
 }
+
+.article-total-list{
+    
+}
+.article-total-list ul {
+    background: #fefefe;
+    padding: 10px;
+    box-shadow: 0 0 10px #fff;
+}
+.article-total-list ul li{
+    line-height: 2em;
+    margin: .2em 0;
+    border-bottom: 1px dashed #eee;
+    padding: .2em .5em;
+    position: relative;
+    white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  padding-right: 105px;
+}
+.article-total-list ul li a{    
+    margin-left: 120px;
+}
+.article-total-list ul li .article-date{
+    position: absolute;
+    right: 0;
+}
+.article-total-list ul li span{
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    text-align: justify;
+}
+.article-total-list ul li .fic-fandom{
+    width: 70px;
+}
+.article-total-list ul li .fic-cp{
+    width: 42px;
+    margin-left: 71px;
+}
