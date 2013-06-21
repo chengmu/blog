@@ -197,3 +197,30 @@ a:hover{text-decoration: underline;}
     width: 42px;
     margin-left: 71px;
 }
+/*单个页面左右布局*/
+.colume-layout .header{
+    padding: 0;
+    border: none;
+    position: fixed;
+    width: 30%;
+    right: 0;
+}
+.colume-layout .header h1{
+    display: block;
+
+}
+.colume-layout .header .aside{
+
+}
+.colume-layout .header .main-menu {
+    position: relative;
+
+    margin: 0;
+}
+.colume-layout .header .main-menu a{
+    display: block;
+
+    line-height: 40px;
+    font-size: 1.6em;
+    text-align: left;
+}

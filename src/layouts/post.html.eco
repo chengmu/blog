@@ -6,7 +6,7 @@
 <head>
     <%-@partial('head.html.eco', @)%>
 </head>
-<body>
+<body class="colume-layout">
     <%-@partial('header.html.eco', @)%>
     <article class="article-content">
         <header class="hd">
