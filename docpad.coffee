@@ -38,9 +38,11 @@ docpadConfig = {
 
 			# The website's styles
 			styles: [
+				'/styles/base.css'
 				'/styles/style.css'
 				'/styles/highlight.css'
 				'/styles/postformation.css'
+				'/styles/fontawesome.css'
 			]
 
 			# The website's scripts

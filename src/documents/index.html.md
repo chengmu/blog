@@ -3,6 +3,7 @@ layout: 'default'
 title: 'Home'
 isPage: true
 date: '2011-07-02'
+icon : 'home'
 ---
 
 ##Try Try Try

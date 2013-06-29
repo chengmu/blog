@@ -1,0 +1,37 @@
+@font-face {
+      font-family: "Consolas";
+      src: url('fonts/consolas.eot') format('eot'), url('fonts/consolas.woff') format('woff'), url('fonts/consolas.ttf') format('truetype');
+}
+html{
+    height: 100%;
+}
+body{
+    font-size: 12px;
+    line-height: 2em;
+    height: 100%;
+    font-family: Consolas,Verdana, Lucas Conslole, Tahoma, Simsun,Microsoft Yahei;
+    background: url(images/bg.jpg) fixed right bottom no-repeat;
+    position: relative;
+    color: rgb(102, 102, 102);
+    min-height: 700px;
+}
+body,ul,li,h1,h2,h3,h4,h5,h6,p,pre{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style:none;
+}
+h2,h3,h4,h5{
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+    color:rgb(139, 0, 0);
+    font-size: 1.4em;
+}
+a:hover{
+    text-decoration: underline;
+    /*color: #fff;
+    background: rgb(139,0,0);*/
+}

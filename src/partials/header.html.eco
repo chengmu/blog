@@ -3,11 +3,28 @@
 <![endif]-->
 <header class="header">
 	<h1><a href="http://chengmu.github.com">Chengmu1893</a></h1>
+    <span class="avatar"></span>
+	<div class="contacts-icon">
+		<a href="http://weibo.com/chengmuak" title="窝的新浪微博~"><i class="icon-weibo"></i></a>
+		<a href="https://github.com/chengmu"  title="窝的github~"><i class="icon-github"></i></a>
+		<a href="http://chengmu.tumblr.com/"  title="窝的汤不热~"><i class="icon-tumblr-sign"></i></a>
+		<a href="mailto:lin.zhu.ak@gmail.com"  title="写信给窝吧！\(^o^)/"><i class="icon-envelope-alt"></i></a> 
+	</div>
 	<aside class="aside main-menu">
-		<% for page in @getCollection("pages").toJSON(): %>
-	            <a class="<%= if page.id is @document.id then 'active' else 'inactive' %>" href="<%= page.url %>">
-	                <%= page.title %>
-	            </a>
-	    <% end %>
+		<ul>
+			<% for page in @getCollection("pages").toJSON(): %>
+				<li>
+		            <a class="<%= if page.id is @document.id || page.pack is @document.relativeOutDirPath then 'active' else 'inactive' %>" href="<%= page.url %>">
+		                <i class="icon-<%= page.icon %>"></i> <%= page.title %> 
+		            </a>
+		            <%if page.pack: %>
+		            <a href="" class="rss">
+		            	<i class="icon-rss"></i>
+		            </a>
+		            <%end%>
+		   		</li>	
+		    <% end %>
+		</ul>
 	</aside>
+	
 </header>

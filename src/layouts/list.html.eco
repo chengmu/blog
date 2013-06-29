@@ -6,14 +6,19 @@
 <head>
     <%-@partial('head.html.eco', @)%>
 </head>
-<body>
+<body class="list-page colume-layout list-type-<%= @document.pack%>">
     <%-@partial('header.html.eco', @)%>
     <article class="article article-total-list ">
-        <aside>
-        <%- @content %>
-        </aside>
+        <header class="header">
+            <h2><%= @document.name %>
+                <a href="<%= @document.pack%>.xml"><i class="icon-rss"></i></a>
+            </h2>
+            <aside>
+            <%- @content %>
+            </aside>
+        </header>
         <ul>
-                <% for recent in @getCollection("trans").toJSON(): %>
+                <% for recent in @getCollection(@document.pack).toJSON(): %>
                 <li  class="type-<%= recent.relativeOutDirPath%>">
                     <span class="fic-fandom">[<%= recent.fandom%>]</span>
                     <span class="fic-cp">[<%= recent.couple%>]</span>

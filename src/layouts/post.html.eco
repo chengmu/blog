@@ -9,6 +9,30 @@
 <body class="colume-layout">
     <%-@partial('header.html.eco', @)%>
     <article class="article-content">
+        <div class="article-nav">
+            <% for document,documentIndex in @getCollection(@document.relativeOutDirPath).toJSON(): %>
+                <% if @document.id is document.id: %>
+                    <% if documentIndex >= 1: %>
+                        <a href="<%= @getCollection(@document.relativeOutDirPath).toJSON()[documentIndex-1].url %>" class="previous">
+                            <span>&lt;&lt;</span>
+                            <%= @getCollection(@document.relativeOutDirPath).toJSON()[documentIndex-1].title%>
+                        </a>
+                    <% end %>
+                    <ins>|</ins>
+                    <a href="../<%@document.relativeOutDirPath%>.html">Back To <%=@document.relativeOutDirPath%></a>
+                    <ins>|</ins>
+                    <a href="../index.html">Home</a>
+                    <ins>|</ins>
+                    <% if documentIndex < @getCollection(@document.relativeOutDirPath).length - 1: %>
+                         <a href="<%= @getCollection(@document.relativeOutDirPath).toJSON()[documentIndex+1].url %>" class="next">
+                            <%= @getCollection(@document.relativeOutDirPath).toJSON()[documentIndex+1].title%> <span>&gt;&gt;</span>
+                         </a>
+                    <% end %>
+
+                <% end %>
+            <% end %>
+                
+        </div>
         <header class="hd">
             <h1><%=@document.title%></h1>
             <span class="catalogue"><%=@document.relativeOutDirPath%></span>

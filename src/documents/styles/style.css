@@ -1,35 +1,3 @@
-@font-face {
-      font-family: "Consolas";
-      src: url("fonts/consolas.ttf");
-}
-html{
-    height: 100%;
-}
-body{
-    font-size: 12px;
-    height: 100%;
-    font-family: Consolas, Tahoma, Simsun,Microsoft Yahei;
-    background: url(images/bg.jpg) fixed right bottom no-repeat;
-    position: relative;
-    color: rgb(102, 102, 102);
-}
-body,ul,li,h1,h2,h3,h4,h5,h6,p,pre{
-    margin: 0;
-    padding: 0;
-}
-li{
-    list-style:none;
-}
-h2,h3,h4,h5{
-    font-weight: normal;
-}
-a{
-    text-decoration: none;
-    color:rgb(139, 0, 0);
-    font-size: 1.4em;
-}
-
-
 /*temp */
 a:hover{text-decoration: underline;}
 
@@ -54,6 +22,22 @@ a:hover{text-decoration: underline;}
     display: inline-block;
     margin: 0 10px;
 }
+/*Contacts*/
+.contacts-icon {
+    padding-left: 1em;
+    margin: 0 0 1em 0;
+}
+.contacts-icon a {
+    font-size: 2.5em;
+    color: #555;
+    margin-right: 0.5em;
+}
+.contacts-icon a:hover {
+    text-decoration: none;
+    color: rgb(139,0,0);
+}
+
+
 .article{
     width: 60%;
     margin: 30px auto;
@@ -71,7 +55,16 @@ a:hover{text-decoration: underline;}
 }
 
 .index-wrapper{
-    width: 75%;
+    width: 70%;
+    margin: 0 1em;
+    padding-top: 5em;
+    min-height: 500px;
+}
+.list-page .article{
+    width: 60%;
+    margin: 0 0 0 2em;
+    padding-top: 5em;
+    min-height: 500px;
 }
 .index-wrapper .article-list{
     width: 45%;
@@ -90,6 +83,11 @@ a:hover{text-decoration: underline;}
     font-weight: normal;
     padding-left: 20px;
 }
+/*.article-list h2 i{
+    font-size: 1.2em;
+margin-right: .5em;
+color: rgb(139,0,0);
+}*/
 .article-list ul{
     padding-left: 20px;
 }
@@ -122,6 +120,14 @@ a:hover{text-decoration: underline;}
     
 }
  
+
+
+ /*列表页*/
+ .list-page .article .header{
+    position: static;
+    width: 100%;
+    margin: 0 0 0 1.5em;
+ }
 .comments{
     width: 60%;
     margin: 0 0 0 80px;
@@ -137,6 +143,8 @@ a:hover{text-decoration: underline;}
     width: 60px;
     background: url(images/avatar.jpg) 0 0 no-repeat;
     background-size: 100% 100%;
+     border-radius: 12px;
+    box-shadow: 1px 1px 1px 1px rgb(169, 169, 169);
 }
 .intro-myself{
     padding-left: 30px;
@@ -145,8 +153,7 @@ a:hover{text-decoration: underline;}
     position: absolute;
     margin-left: 40px;
     margin-top: 17px;
-    border-radius: 12px;
-    box-shadow: 1px 1px 1px 1px rgb(169, 169, 169);
+   
 }
 .intro-myself p{
     padding-left: 140px;
@@ -178,7 +185,6 @@ a:hover{text-decoration: underline;}
     white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  padding-right: 105px;
 }
 .article-total-list ul li a{    
-    margin-left: 120px;
 }
 .article-total-list ul li .article-date{
     position: absolute;
@@ -192,10 +198,12 @@ a:hover{text-decoration: underline;}
 }
 .article-total-list ul li .fic-fandom{
     width: 70px;
+    display: none;
 }
 .article-total-list ul li .fic-cp{
     width: 42px;
     margin-left: 71px;
+    display: none;
 }
 /*单个页面左右布局*/
 .colume-layout .header{
@@ -204,23 +212,59 @@ a:hover{text-decoration: underline;}
     position: fixed;
     width: 30%;
     right: 0;
+    top: 4em;
 }
 .colume-layout .header h1{
     display: block;
 
 }
-.colume-layout .header .aside{
+.index.colume-layout .header .avatar{
+    display: none;
+}
+.colume-layout .header .avatar{
+    margin: .5em 0 1em 2.6em;
 
+    width: 100px;
+    height: 100px;
 }
 .colume-layout .header .main-menu {
     position: relative;
 
     margin: 0;
 }
+
 .colume-layout .header .main-menu a{
     display: block;
-
-    line-height: 40px;
+    line-height: 1.5;
     font-size: 1.6em;
     text-align: left;
+    padding: 0 1em 0 .2em;
+}
+.colume-layout .header .main-menu a.active,.colume-layout .header .main-menu a:hover{
+    background: rgb(139, 0, 0);
+    color:#fff;
+    text-decoration: none;
+}
+.colume-layout .header .main-menu li{
+    padding-right:2em;
+    position: relative;
+}
+.colume-layout .header .main-menu a.active+.rss,.colume-layout .header .main-menu a:hover+.rss{
+    color: #fff;
+}
+.colume-layout .header .main-menu .rss{
+    display:inline-block;     
+    position: absolute;
+    top: 0;
+    left: 104px;
+    padding: 0 .2em;
+    color: #555;
+}
+/*list页面*/
+
+.list-type-trans .article-total-list ul li .fic-fandom,.list-type-trans .article-total-list ul li .fic-cp{
+    display: inline-block;
+}
+.list-type-trans .article-total-list ul li a{    
+    margin-left: 120px;
 }

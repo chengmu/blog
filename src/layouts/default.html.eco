@@ -6,7 +6,7 @@
 <head>
     <%-@partial('head.html.eco', @)%>
 </head>
-<body class="index">
+<body class="index colume-layout">
     <%-@partial('header.html.eco', @)%>
     <article class="article index-wrapper">
         <article class="article-list intro-myself">
@@ -16,7 +16,7 @@
                 <p>还在一点点的进行修缮，</p>
                 <p>拿来放些翻译随笔神码的。</p>
                 <p>请enjoy！还有尽情勾搭嗷！</p>      
-                
+                <p><a href="about.html#disqus_thread"><i class="icon-comment-alt"></i>有神马想说的嘛XDD </br>请点这里~</a></p>
             </div>
             
         </article>
