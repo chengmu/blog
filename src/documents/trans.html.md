@@ -8,4 +8,4 @@ pack: 'trans'
 name: '翻译稿/Trans'
 ---
 
-这里存放我的翻译，以Slash Fanfiction为主.](trans.xml).
+这里存放我的翻译，以Slash Fanfiction为主

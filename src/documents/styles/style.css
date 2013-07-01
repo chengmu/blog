@@ -60,7 +60,7 @@ a:hover{text-decoration: underline;}
     padding-top: 5em;
     min-height: 500px;
 }
-.list-page .article{
+.list-page .article,.aboutme .article{
     width: 60%;
     margin: 0 0 0 2em;
     padding-top: 5em;
@@ -130,7 +130,7 @@ color: rgb(139,0,0);
  }
 .comments{
     width: 60%;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 2em;
 }
 .footer{
     padding:10px 40px;

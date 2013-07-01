@@ -18,7 +18,7 @@
 		                <i class="icon-<%= page.icon %>"></i> <%= page.title %> 
 		            </a>
 		            <%if page.pack: %>
-		            <a href="" class="rss">
+		            <a href="<%= if !@document.isPage then '../'%><%= page.pack%>.xml" class="rss">
 		            	<i class="icon-rss"></i>
 		            </a>
 		            <%end%>

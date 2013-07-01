@@ -51,7 +51,9 @@ docpadConfig = {
 				'/vendor/modernizr.js'
 				'/scripts/script.js'
 			]
-
+			services:
+	            disqus: 'chengmu1893'
+	            googleAnalytics: 'googleAnalytics-id'
 
 		# -----------------------------
 		# Helper Functions
