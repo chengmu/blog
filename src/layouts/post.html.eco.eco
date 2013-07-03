@@ -42,10 +42,10 @@
             <%- @content %>
         </section>
     </article>
-    <div class="sidebar">
+<!--     <div class="sidebar">
     <h3>Contents</h3>
     <%- @partial('toc.html.eco', {tocItems: @document.tableOfContents}) %>
-</div>
+</div> -->
 <div class="comments">
     <%- @getDisqus() %>
 </div>

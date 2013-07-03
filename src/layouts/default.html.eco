@@ -10,7 +10,7 @@
     <%-@partial('header.html.eco', @)%>
     <article class="article index-wrapper">
         <article class="article-list intro-myself">
-            <span class="avatar"></span>
+            <a href="about.html" title="关于窝~"><span class="avatar"></span></a>
             <div>
                 <p>Hi，这是程慕的个人站，</p>
                 <p>还在一点点的进行修缮，</p>
