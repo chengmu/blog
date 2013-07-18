@@ -9,6 +9,7 @@ docpadConfig = {
 	# Template Data
 	# These are variables that will be accessible via our templates
 	# To access one of these within our templates, refer to the FAQ: https://github.com/bevry/docpad/wiki/FAQ
+  	outPath: '../chengmu.github.com'  # default
 
 	templateData:
 
@@ -43,6 +44,7 @@ docpadConfig = {
 				'/styles/highlight.css'
 				'/styles/postformation.css'
 				'/styles/fontawesome.css'
+				'/styles/media.css'
 			]
 
 			# The website's scripts

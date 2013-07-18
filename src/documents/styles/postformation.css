@@ -114,7 +114,7 @@
     padding-left: 40px;
 }
 .article-content li{
-    list-style-type: disc;
+    list-style-type: none;
     text-indent: 0;
 }
 .article-content p{
@@ -122,6 +122,9 @@
     margin: 0.8em 0;
     text-indent: 2em;
 }
+.article-content li p{
+    text-indent:0;
+}  
 .article-content p img{
     vertical-align: bottom;
 }

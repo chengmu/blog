@@ -274,11 +274,13 @@ color: rgb(139,0,0);
 }
 
 
-.article-content ul li::before,.aboutme ul li::before{
+.article-content ul li::before,.aboutme .article ul li::before{
     font-family: FontAwesome;
     content:'\f005';
     padding:0 0 0 10px;
     margin-right:1em;
     color: rgb(139,0,0);
     font-size:1em;
+    position: absolute;
+    margin-left: -2em;
 }

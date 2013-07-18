@@ -1,0 +1,39 @@
+@media (max-width: 325px) {
+   .index-wrapper{
+       width:95%;
+   }
+   .article-content{
+   		width: 80%;
+   		margin: 0 auto;
+   }
+   .article-content .article-nav{
+   	display: none;
+   }
+  .colume-layout .header{
+    padding: 0;
+    border: none;
+    position: static;
+    width: 71%;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+	}
+	.colume-layout .header .main-menu {
+	    display: none;
+	    margin: 0;
+	}
+	.index-wrapper{
+	    margin-top:0;
+	    padding-top:0;
+	}     
+	.intro-myself div{
+	    padding-top:80px;
+	    padding-left:0;
+	}
+	.intro-myself div p{
+	    padding:0 0 0 30px;
+	}
+	.index-wrapper .article-list{
+	    width: 260px;   
+	}
+}
