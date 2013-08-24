@@ -4,7 +4,7 @@ docpadConfig = {
 	#========================================
     # Render Passes
     # How many times should we render documents that reference other documents?
-    renderPasses: 2   
+    renderPasses: 2
 	# =================================
 	# Template Data
 	# These are variables that will be accessible via our templates
@@ -17,12 +17,6 @@ docpadConfig = {
 		site:
 			# The production url of our website
 			url: "http://localhost:9778/"
-
-			# Here are some old site urls that you would like to redirect from
-			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
-			]
 
 			# The default title of our website
 			title: "Chengmu1893"
@@ -49,13 +43,11 @@ docpadConfig = {
 
 			# The website's scripts
 			scripts: [
-				'/vendor/log.js'
-				'/vendor/modernizr.js'
-				'/scripts/script.js'
+
 			]
 			services:
 	            disqus: 'chengmu1893'
-	            googleAnalytics: 'googleAnalytics-id'
+	            googleAnalytics: 'UA-41695213-1'
 
 		# -----------------------------
 		# Helper Functions
@@ -80,8 +72,8 @@ docpadConfig = {
 		getPreparedKeywords: ->
 			# Merge the document keywords with the site keywords
 			@site.keywords.concat(@document.keywords or []).join(', ')
-		
-	
+
+
 	#===============================
 	collections:
     pages: ->

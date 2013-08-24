@@ -1,7 +1,9 @@
 ---
-title : '边线与方砖'
+title : '边线与方砖/Lines and Squares'
 fandom: Sherlock
 couple: ML
+date: 2011-03-26
+
 ---
 
 
@@ -20,7 +22,7 @@ Pairing: Mycroft/Lestrade (前奏，非已有关系。。。。。)
 LINESAND SQUARES/边线与方砖
 
 
-Whenever I walk in a London street,.
+>Whenever I walk in a London street,.
 每当我走在伦敦街头，
 I'm ever so careful to watch my feet;
 我总是仔细观察自己的步伐

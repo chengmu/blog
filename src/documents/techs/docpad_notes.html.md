@@ -1,5 +1,6 @@
 ---
 title: 'docpad建站记录'
+date: 2013-07-01
 ---
 记一下用docpad建站的过程作为备忘。不定时更新
 
@@ -68,9 +69,9 @@ wordpress对我来说太过于臃肿，我就想要个代码干净的小站来�
 ###目录结构及用途
 以我自己的站点目录为例：
 ``` javascript
-+ node_module //存放各种模块 
++ node_module //存放各种模块
 + src  //源码目录，主工作区~ 里面的东西会经过编译后生成静态页面，导出到out文件夹内
-    + documents 
+    + documents
         + styles   //样式文件+字体
         + scripts  //脚本
         + posts    //这三个是我自己定义的目录，用来做为我文档的归类
@@ -86,7 +87,7 @@ wordpress对我来说太过于臃肿，我就想要个代码干净的小站来�
         + header.html.eco
         + ...
  +docpad.coffee  //这是配置文件，用coffeescript写
-``` 
+```
 ###markdown文档
 在documents下写md文档，类似于**.html.md*的后缀，在渲染时就会从md转为html.
 markdown文件的开头会写具体的meta：
@@ -94,7 +95,7 @@ markdown文件的开头会写具体的meta：
 ---
 title : 'Docpad建站记录'
 isPage : true
---- 
+---
 
 ```
 
@@ -111,14 +112,14 @@ eco模板类似于下面的样子：
 			<% for page in @getCollection("pages").toJSON(): %>
 				<li>
 		            <a class="<%= if page.id is @document.id || page.pack is @document.relativeOutDirPath then 'active' else 'inactive' %>" href="<%= page.url %>">
-		                <i class="icon-<%= page.icon %>"></i> <%= page.title %> 
+		                <i class="icon-<%= page.icon %>"></i> <%= page.title %>
 		            </a>
 		            <%if page.pack: %>
 		            <a href="<%= if !@document.isPage then '../'%><%= page.pack%>.xml" class="rss">
 		            	<i class="icon-rss"></i>
 		            </a>
 		            <%end%>
-		   		</li>	
+		   		</li>
 		    <% end %>
 		</ul>
 ```
@@ -152,7 +153,7 @@ posts: ->
     <feed xmlns="http://www.w3.org/2005/Atom">
         <title><%= @site.title %></title>
         <link href="<%= @site.url %>/atom.xml" rel="self"/>
-        <link href="<%= @site.url %>"/> 
+        <link href="<%= @site.url %>"/>
         <updated><%= @site.date.toISOString() %></updated>
         <id><%= @site.url %></id>
         <author>
@@ -203,7 +204,7 @@ posts: ->
 
 ##备注
 
-###comments 
+###comments
 目前使用的是Disque。 Docpad也可以启用本地评论，但是需要服务器为nodejs驱动；
 
 ###加密！
@@ -211,4 +212,4 @@ posts: ->
 
 
 ##TODO：
-+ 文章目录的自动生成和跳转 
++ 文章目录的自动生成和跳转

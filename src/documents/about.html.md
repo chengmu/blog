@@ -7,37 +7,24 @@ icon: 'female'
 ---
 
 
+##欢迎提问嗷！
 
-大家好我是程慕 ，这里是我的个人站 ，重点大概还是*Slash*相关啦！
+<iframe src="http://ask.fm/widget/a33014f84fa7914a22a91305d21356a7638b048a?stylesheet=custom&lang=33" frameborder="0" scrolling="no" style="border:none;width:100%;"></iframe>
 
-还有些个人的学习笔记啥的我也放着啦。
+##大家好我是程慕
 
-小站还在建设中~偶做事情有点慢【挠头
+这里是我的个人站 ，重点大概还是*Slash*相关啦！还有些个人的学习笔记啥的我也放着啦。小站还在建设中~偶做事情有点慢【挠头
 
 总之 Enjoy！啊 要是能勾搭下就更好了呢wwwwwwwwwww
 
-====================================================
+##窝喜欢
 
-嘛说道墙头有点多呢o(*////▽////*)q
+嘛说道墙头有点多呢o(*////▽////*)q欧美圈欢腾ing! 超喜欢有声书！*Fayjay*是窝的女神\_(:з」∠)\_。最近每天都在看**Start Trek The Orgininal Seires**
 
-+ [Castiel (Supernatural)]()
-+ [Doctor Who]() (10th是最爱，还有Donna)
-+ [Superman&Batman]() (DC Justice League)
-+ [Star Trek : The Orgin Series](http://fanlore.org/wiki/Star_Trek:_The_Original_Series)
-+ [Merlin](http://fanlore.org/wiki/Merlin_(TV_series))
+具体的话可以参见__[墙头&萌物清单](posts/墙头.html)__
 
-======================================================
+窝搞过的__[翻译文记录](trans.html)__
 
-
-Hi there,
-
-this is my site,
-
-I love Front-end tech, fiction, and lots of things.
-
-By the way, 
-
-I am also a fan girl!
 
 
 

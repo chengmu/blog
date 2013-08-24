@@ -1,7 +1,9 @@
 ---
-title : '破碎与骨'
+title : '破碎与骨/Rags and Bones'
 fandom: Sherlock
 couple: HW
+date: 2012-08-01
+
 ---
 
 
@@ -10,7 +12,7 @@ couple: HW
 破碎与骨
 标题: Rags and Bones
 原文：http://emungere.livejournal.com/249891.html
-分级: PG-13 
+分级: PG-13
 配对：有点john/sherlock
 警告：（John没死，真的。）John被杀了（反正是被杀了），Sherlock并没有拿他的头骨替换掉书架上那个。不，正相反，他留下了John的手骨。并将其做成手指可弯曲的样式。然后放在自己兜里，外出的时候，要是他觉得孤独，或者苏格兰场太烦人，或者他就是怀念下，他就可以握住John的手。。。
 
@@ -55,7 +57,7 @@ couple: HW
 
 腕骨，掌骨，近端指骨，中级指骨，远端指骨。
 
-手舟骨，月状骨，三角骨，豆状骨，大多角骨，小多角骨，钩骨。 
+手舟骨，月状骨，三角骨，豆状骨，大多角骨，小多角骨，钩骨。
 
 Sherlock最后需要做张表格好详尽记录。这只手如此地不像John，但是有如此多的碎片。这一点很像John，很像他。
 
@@ -255,7 +257,7 @@ Sherlock点头。当然是Mycroft。他现在不关心那个。有可能以后�
 
 他的手摸进John的衬衣。不够。他解开John的衬衣，摊开，耳朵贴压在John的胸口，John的心脏上，他能听到自己咬牙的声音。不够。他脱掉了自己的衬衣，这样更近一些。
 
-"Sherlock?" 
+"Sherlock?"
 
 John听起来有些犹豫，嗓音有些喘。很有可能跟裸体跟性有关，John喜欢女人，但是Harry说过，这跟喜欢没关系，至少不是那种喜欢。
 
@@ -314,7 +316,7 @@ emungere May 8th, 2011
 
 
 
-@akakano2 
+@akakano2
 Hi! Don’t worry, it’s okay. I would’ve said yes anyway. I’m very happy you liked the story, and in response to your question – John really did lose his hand in the explosion, yes. Thanks for the the feedback, and for the translation. :)
 
 
@@ -327,5 +329,5 @@ Hi! Don’t worry, it’s okay. I would’ve said yes anyway. I’m very happy y
 
 但我觉得作者的文其实是很开放那种思路，所以大家各自看有各自的感觉，看得开心就好啊XD我只是觉得这文很好想介绍过来而已~
 
- 
+
 

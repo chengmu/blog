@@ -1,6 +1,7 @@
 ---
 title : 'w3新人记录'
 layout: 'post'
+date : 2013-08-09
 ---
 
 #w3新人记录

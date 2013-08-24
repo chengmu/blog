@@ -2,10 +2,11 @@
 title : '来来去去/There and Back Again '
 fandom: Sherlock
 couple: gen
+date: 2010-12-12
 ---
 
 
->Title: 来来去去/There and Back Again 
+>Title: 来来去去/There and Back Again
 
 >Author：eleanor k.
 
@@ -13,7 +14,7 @@ couple: gen
 
 >Rating: PG
 
->Pairing: 无配对，但也可以说是John/Sherlock.大家随意。。 
+>Pairing: 无配对，但也可以说是John/Sherlock.大家随意。。
 
 >源地址：http://emungere.livejournal.com/243835.html
 
@@ -28,7 +29,7 @@ John在水下睁开眼，看向Sherlock，那人也正看着他。Sherlock在水
 最终，他们浮出了水面，许多东西正燃烧着。Moriaty消失不见了。没有人对他们开枪。
 
 “这边。”sherlock说，咳嗽着，抓住了他的手。
-  
+
 烟雾缭绕着他们。John拉起衬衫捂住嘴，但是他的急速的喘息迅速转为了剧烈的咳嗽，导致他吸入了更多的烟。
 
 

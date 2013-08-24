@@ -2,9 +2,10 @@
 title : '伪神/Graven Image '
 fandom: 'ST:TOS'
 couple: Mirror!K/S
+date: 2013-08-01
 ---
 
-  [ST] [翻译][TOS][镜像!Kirk&Spock][接S2E4]伪神/Graven Image 6-15END   
+  [ST] [翻译][TOS][镜像!Kirk&Spock][接S2E4]伪神/Graven Image 6-15END
 
 原名：Graven Image
 译名：伪神
@@ -183,9 +184,9 @@ McCoy不在这。我在，而舰长正站在我旁边俯视我，浑身发抖。
 =======================
 
 我觉得得来个图！留胡子的大副！！赤膊的舰长！
-  
 
-  
+
+
 
 =================================
 

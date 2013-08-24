@@ -1,5 +1,5 @@
 <!--[if lt IE 7]>
-    <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+    <p class="chromeframe">你居然在用这么老旧的浏览器。。 <a href="http://browsehappy.com/">更新一下！</a> or <a href="http://www.google.com/chromeframe/?redirect=true">安装个chrome吧它可萌啦！</a></p>
 <![endif]-->
 <header class="header">
 	<h1><a href="http://chengmu.github.com">Chengmu1893</a></h1>
@@ -8,23 +8,29 @@
 		<a href="http://weibo.com/chengmuak" title="窝的新浪微博~"><i class="icon-weibo"></i></a>
 		<a href="https://github.com/chengmu"  title="窝的github~"><i class="icon-github"></i></a>
 		<a href="http://chengmu.tumblr.com/"  title="窝的汤不热~"><i class="icon-tumblr-sign"></i></a>
-		<a href="mailto:lin.zhu.ak@gmail.com"  title="写信给窝吧！\(^o^)/"><i class="icon-envelope-alt"></i></a> 
+	</div>
+	<div class="contacts-icon">
+		<a href="mailto:lin.zhu.ak@gmail.com"  title="写信给窝吧！\(^o^)/"><i class="icon-envelope-alt"></i></a>
+		<a href="http://huaban.com/ywphrm9kqx/"  title="窝的花瓣网！里面收集好多图\(^o^)/"><i class="icon-pinterest"></i></a>
+		<a href="http://ask.fm/chengmu"  title="问我！"><i class="icon-ask"></i>ASK!</a>
+
 	</div>
 	<aside class="aside main-menu">
 		<ul>
 			<% for page in @getCollection("pages").toJSON(): %>
 				<li>
 		            <a class="<%= if page.id is @document.id || page.pack is @document.relativeOutDirPath then 'active' else 'inactive' %>" href="<%= page.url %>">
-		                <i class="icon-<%= page.icon %>"></i> <%= page.title %> 
+		                <i class="icon-<%= page.icon %>"></i> <%= page.title %>
 		            </a>
 		            <%if page.pack: %>
 		            <a href="<%= if !@document.isPage then '../'%><%= page.pack%>.xml" class="rss">
 		            	<i class="icon-rss"></i>
 		            </a>
 		            <%end%>
-		   		</li>	
+		   		</li>
 		    <% end %>
 		</ul>
 	</aside>
-	
+	<div>
+<iframe src="http://ask.fm/widget/a33014f84fa7914a22a91305d21356a7638b048a?stylesheet=custom&lang=33" frameborder="0" scrolling="no" width="140" height="275" style="border:none;"></iframe>	</div>
 </header>
